@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 COPY . /var/www/html/
 
 # Establecer el directorio de trabajo
-WORKDIR /var/www/html/public
+WORKDIR /var/www/html
 
 # Exponer el puerto que Render utiliza
 EXPOSE 10000
